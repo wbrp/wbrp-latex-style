@@ -5,9 +5,9 @@ Webrepublic LaTeX class file.
 
 Usage:
 
-    \documentclass{webrepublic}
+    \documentclass{style/webrepublic}
 
-You need to copy the following fonts to the current directory:
+You need to copy the following fonts to the `fonts` directory:
 
 - HelveticaNeueLTStd-Th.otf
 - HelveticaNeueLTStd-Roman.otf
