@@ -18,7 +18,13 @@
 % font
 \RequirePackage{fontspec}
 \RequirePackage{microtype}
-\setmainfont{Helvetica Neue LT Std}
+\setmainfont{HelveticaNeueLTStd}[
+    Extension = .otf,
+    UprightFont = *-Th,
+    BoldFont = *-Roman,
+    ItalicFont = *-ThIt,
+    BoldItalicFont = *-It
+]
 
 % colors
 \RequirePackage[cmyk,hyperref]{xcolor}
@@ -53,9 +59,9 @@
 \fancyfoot[L]{%
     \footnotesize
     \begin{tabular}{@{}p{4.5cm}ll}
-            \textcolor{gray}{\textbf{Webrepublic AG}} & \textcolor{red}{email} & \href{mailto:office@webrepublic.ch}{office@webrepublic.ch} \\
-            \textcolor{gray}{Seefeldstrasse 233}      & \textcolor{red}{tel}   & \href{tel:+41 44 542 90 60}{+41 44 542 90 60} \\
-            \textcolor{gray}{CH - 8008 Zürich}        & \textcolor{red}{web}   & \href{http://www.webrepublic.ch}{www.webrepublic.ch}
+        \textcolor{gray}{\textbf{Webrepublic AG}} & \textcolor{red}{email} & \href{mailto:office@webrepublic.ch}{office@webrepublic.ch} \\
+        \textcolor{gray}{Seefeldstrasse 233}      & \textcolor{red}{tel}   & \href{tel:+41 44 542 90 60}{+41 44 542 90 60} \\
+        \textcolor{gray}{CH - 8008 Zürich}        & \textcolor{red}{web}   & \href{http://www.webrepublic.ch}{www.webrepublic.ch}
     \end{tabular}
 }
 \fancyfoot[R]{\footnotesize~\\\textcolor{gray}{Page \thepage/\pageref*{LastPage}}}
@@ -78,20 +84,20 @@
 }
 
 \lstset{
-   backgroundcolor=\color{code},
-   extendedchars=true,
-   basicstyle=\fontsize{8}{1em}\selectfont\ttfamily,
-   showstringspaces=false,
-   showspaces=false,
-   numbers=left,
-   numberstyle=\footnotesize,
-   numbersep=9pt,
-   tabsize=2,
-   breaklines=true,
-   showtabs=false,
-   captionpos=b,
-   aboveskip=4mm,
-   belowskip=2mm
+    backgroundcolor=\color{code},
+    extendedchars=true,
+    basicstyle=\fontsize{8}{1em}\selectfont\ttfamily,
+    showstringspaces=false,
+    showspaces=false,
+    numbers=left,
+    numberstyle=\footnotesize,
+    numbersep=9pt,
+    tabsize=2,
+    breaklines=true,
+    showtabs=false,
+    captionpos=b,
+    aboveskip=4mm,
+    belowskip=2mm
 }
 
 % section style and spacing
