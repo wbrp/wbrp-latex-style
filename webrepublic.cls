@@ -13,13 +13,12 @@
 \LoadClass[11pt,a4paper]{article}
 
 % language and encoding
-\RequirePackage[utf8]{inputenc}
 \RequirePackage[T1]{fontenc}
 
 % font
-\RequirePackage{tgheros}
+\RequirePackage{fontspec}
 \RequirePackage{microtype}
-\renewcommand{\familydefault}{\sfdefault}
+\setmainfont{Helvetica Neue LT Std}
 
 % colors
 \RequirePackage[cmyk,hyperref]{xcolor}
