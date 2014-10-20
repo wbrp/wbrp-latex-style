@@ -2,6 +2,9 @@
 %
 %   Webrepublic template class for proposals.
 %
+%   KOMA-Script Docs:
+%   http://texdoc.net/texmf-dist/doc/latex/koma-script/scrguide.pdf
+%
 %   Copyright (C) 2014 Webrepublic AG
 %
 % -------------------------------------------------------------------------------------------------
